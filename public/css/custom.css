@@ -1,0 +1,81 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-secondaryQ,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #FFFFFF;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #0D2B5B;
+}
+
+body {
+/*  display: -ms-flexbox;*/
+/*  display: flex;*/
+}
+
+.custom-label{
+  color: white; 
+  text-align: left;
+  font-weight: 600;
+}
+
+.custom-login{
+  color: #0D2B5B;
+  background-color: #FFFFFF;
+  align-items: right;
+  text-align: right;
+  font-weight: 600;
+}
+
+.alert{
+  color: red;
+  text-align: center;
+}
+
+.alert-courier{
+  color: red;
+}
+
+.custom-header{
+  color: #0D2B5B;
+  font-size: 32px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-weight: 800;
+}
+
+.custom-call{
+  color: #0D2B5B;
+  font-size: 20px;
+  margin-top: 20%;
+  padding-bottom: 20%;
+  font-weight: 600;
+}
+.custom-icon{
+  color: #0D2B5B;
+  font-size: 20px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
